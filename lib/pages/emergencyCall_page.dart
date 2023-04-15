@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, prefer_const_constructors
+
 import 'package:bee_you/pages/widgets/widget_drawer.dart';
 import 'package:flutter/material.dart';
 
@@ -17,13 +19,6 @@ class _EmergencyCallPageState extends State<EmergencyCallPage> {
         title: Text('Emergency Call'),
       ),
       drawer: MenuLateral(),
-      body: Center(
-        child: FloatingActionButton(
-            child: Text('Back'),
-            onPressed: () {
-              Navigator.of(context).pop();
-            }),
-      ),
     ));
   }
 }

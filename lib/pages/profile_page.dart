@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:bee_you/pages/widgets/widget_drawer.dart';
 import 'package:flutter/material.dart';
 
@@ -16,14 +18,7 @@ class _ProfilePageState extends State<ProfilePage> {
           title: Text('Profile'),
         ),
         drawer: MenuLateral(),
-        body: Center(
-          child: FloatingActionButton(
-            child: Text('Back'),
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-          ),
-        ),
+        body: Center(),
       ),
     );
   }

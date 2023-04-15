@@ -1,3 +1,5 @@
+// ignore_for_file: constant_identifier_names
+
 abstract class Routes {
   static const String HomePage = '/home_page';
   static const String Login = '/login_app';

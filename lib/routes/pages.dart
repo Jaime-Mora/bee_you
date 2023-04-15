@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:bee_you/pages/configuration_page.dart';
 import 'package:bee_you/pages/emergencyCall_page.dart';
 import 'package:bee_you/pages/login_app.dart';
